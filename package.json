@@ -1,0 +1,27 @@
+{
+  "name": "mkdocs",
+  "version": "1.0.0",
+  "description": "convert raw source files to documentation for hrea",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/h-REA/graphql-developer-docs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/h-REA/graphql-developer-docs/issues"
+  },
+  "homepage": "https://github.com/h-REA/graphql-developer-docs#readme",
+  "dependencies": {
+    "@valueflows/vf-graphql-holochain": "file:../hrea/modules/vf-graphql-holochain",
+    "@valueflows/vf-graphql": "0.9.0-alpha.6",
+    "change-case": "^4.1.2",
+    "typescript": "^4.7.4"
+  }
+}
